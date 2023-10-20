@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font: 17pt normal arial;
+    color: beige;
+    background-color: beige;
+}
+
+div.caixa_calculadora{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 3px 3px black;
+    background-color: dimgray;
+}
+
+div.resultado{
+    border: 2px solid black;
+    margin: 20px 9px 5px 9px;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(201, 194, 194, 0.222);
+}
+
+.btn{
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.344);
+    margin: 6px;
+    width: 50px;
+    height: 60px;
+    border-radius: 7px;
+}
+
+.btn_caixa{
+    width: 200px;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+
+.btn_operador{
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.344);
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 7px;
+}
+
+.btn_operadores{
+    position: absolute;
+    right: 104px;
+    top: 78px;
+}
+
