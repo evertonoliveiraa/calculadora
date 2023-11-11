@@ -19,8 +19,9 @@ div.caixa_calculadora{
     height: 400px;
     margin: auto;
     margin-top: 10px;
-    box-shadow: 2px 3px 3px black;
+    box-shadow: 3px 2px 3px black;
     background-color: dimgray;
+    position: sticky;
 }
 
 div.resultado{
@@ -61,5 +62,6 @@ div.resultado{
     position: absolute;
     right: 104px;
     top: 78px;
+    right: 0;
 }
 
